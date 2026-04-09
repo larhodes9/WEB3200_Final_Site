@@ -134,3 +134,5 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = BASE_DIR / "uploads" # Actual directory
 MEDIA_URL = "/site-images/"       # Mapped URL
+
+ALLOWED_HOSTS = ['mysite-bghi.onrender.com', 'localhost', '127.0.0.1']
