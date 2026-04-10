@@ -27,8 +27,6 @@ SECRET_KEY = 'django-insecure-i66k$kq1zer5w9m^aya#4x*fu(^2@76!!_98=2x%xwg=zb-1+r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -133,9 +131,6 @@ if not DEBUG:
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
-
-MEDIA_ROOT = BASE_DIR / "uploads" # Actual directory
-MEDIA_URL = "/site-images/"       # Mapped URL
 
 ALLOWED_HOSTS = ['mysite-bghi.onrender.com', 'localhost', '127.0.0.1']
 
